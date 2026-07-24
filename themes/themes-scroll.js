@@ -699,7 +699,7 @@ var openInvitation = function openInvitation(event) {
   if (navigator.userAgent.indexOf("UCBrowser") != -1 || navigator.userAgent.indexOf("MiuiBrowser") != -1 || navigator.userAgent.includes("OppoBrowser") || navigator.userAgent.includes("HeyTapBrowser")) {
     console.log("Browser not support portrait full screen mode");
   } else {
-    openFullScreen();
+    // openFullScreen();
   }
 
   // hide the cover
